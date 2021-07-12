@@ -16,8 +16,8 @@ import { ExpandMore } from "@material-ui/icons";
 
 const useStyles = makeStyles({
     card: {
-        minWidth: 350,
-        maxWidth: 350,
+        minWidth: 290,
+        maxWidth: 290,
         minHeight: 250,
         borderRadius: 5,
         '&:hover': {
