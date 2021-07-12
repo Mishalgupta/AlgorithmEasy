@@ -30,9 +30,7 @@ const About = () => {
                             </div>
                             <div className="col-md-6 col-12 main_header_left">
                                 <h1>I am Mishal Gupta .... <br /><span class="text_clr">Mern stack developer </span><br /> & a Java Programmer</h1>
-                                <Link to="https://www.linkedin.com/in/mishal-gupta-42550a194/ " target="_blank">
-                                    <button>Hire me</button>
-                                </Link>
+                                <a href="https://www.linkedin.com/in/mishal-gupta-42550a194" target="_blank">  <button>Hire me</button></a>
                             </div>
                         </div>
                     </div>

@@ -22,7 +22,10 @@ body {
 }
 
 /* main-header */
-
+.main_header{
+    background-color: rgb(255, 255, 255);
+    
+}
 .main_header_left {
     height: 28rem;
     display: flex;

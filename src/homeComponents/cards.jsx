@@ -5,7 +5,6 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import graph from "./images/graph.png";
 import primes from "./images/primes.jpg"
-import sort from "./sort.png"
 import binSearch from './images/binaryTree.png'
 import { getDetails } from "./cardDetails";
 import TextField from "@material-ui/core/TextField";
@@ -26,10 +25,9 @@ class Cards extends Component {
     render() {
         return (
             <>
-                <div className="d-flex justify-content-end Cards">
-                    <TextField
-                        id="standard-basic" label="Search"
-                        color="secondary"
+                <div className="search-box">
+                    <TextField className="search-field"
+                        label="Search"
                         onChange={this.getData}
                     />
                 </div>

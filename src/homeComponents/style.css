@@ -1,17 +1,44 @@
+.logo-img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    margin-left: -3%;
+}
+
+.logo-css {
+    display: flex;
+}
+
 .type {
     width: 100%;
     align-content: center;
     background-color: #282c34;
     text-align: center;
+    margin-top: -3%;
     font-family: "Roboto Slab ExtraLight";
 }
 
+.type-font {
+    font-size: xx-large !important;
+}
+
 li .color {
-    color: #c4c4c4;
+    font-size: 17px;
+    color: #eae5e5 !important;
 }
 
 li .color:hover {
-    color: rgb(26, 255, 0);
+    color: rgb(0, 206, 252) !important;
+}
+
+.search-field label {
+    color: rgb(196, 196, 196);
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
 }
 
 .Cards {
@@ -20,6 +47,10 @@ li .color:hover {
     align-self: center;
     align-content: center;
     position: center;
+}
+
+.card-body {
+    background-color: indianred !important;
 }
 
 .page-footer {
