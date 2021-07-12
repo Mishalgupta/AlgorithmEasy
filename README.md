@@ -3,7 +3,7 @@
 
 A better visualization of different algorithms made with React.
 
-Link to site: https://github.com/Mishalgupta/algorithmeasy
+Link to site: https://mishalgupta.github.io/algorithmeasy
 
 So far there are 3 segemets:  
 - Prime Numbers
