@@ -1,7 +1,5 @@
+#dependencies
 /node_modules
 
-build
-
-App.js
-
-package-lock.json
+#production
+/build
