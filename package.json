@@ -1,7 +1,7 @@
 {
   "name": "algo-easy",
   "version": "0.1.0",
-  "homepage": "https://Mishalgupta.github.io/algorithmeasy",
+  "homepage": "https://Mishalgupta.github.io/AlgorithmEasy",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
