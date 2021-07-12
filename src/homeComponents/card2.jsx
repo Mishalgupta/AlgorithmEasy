@@ -13,21 +13,21 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import CardHeader from '@material-ui/core/CardHeader';
 import "./style.css";
 import "./images/graph.png";
-import {ExpandMore} from "@material-ui/icons";
-import {Link} from "react-router-dom";
+import { ExpandMore } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     card: {
-        minWidth: 350,
-        maxWidth:350,
-        minHeight:200,
+        minWidth: 250,
+        maxWidth: 250,
+        minHeight: 200,
         borderRadius: 5,
         '&:hover': {
             boxShadow: `0 6px 12px 0 #000000
                 .rotate(-12)
                 .darken(0.2)
                 .fade(0.5)}`
-                ,
+            ,
         },
     },
     media: {
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
         transform: 'rotate(180deg)',
     },
     actionArea: {
-        padding:15,
+        padding: 15,
         transition: '0.2s',
         '&:hover': {
             transform: 'scale(1.1)',
@@ -65,18 +65,18 @@ export default function ImgMediaCard2(props) {
         <CardActionArea className={classes.actionArea} m={20}>
             <Card
                 className={classes.card}
-                >
-               <Link to={props.card.route}>
-                   <CardMedia
-                       component="img"
-                       alt={props.card.title}
-                       height="150"
-                       src={props.card.img}
-                   />
-               </Link>
+            >
+                <Link to={props.card.route}>
+                    <CardMedia
+                        component="img"
+                        alt={props.card.title}
+                        height="150"
+                        src={props.card.img}
+                    />
+                </Link>
                 <CardHeader
                     title={props.card.title}
-                    style={{backgroundColor:"whitesmoke"}}
+                    style={{ backgroundColor: "whitesmoke" }}
                     action={
                         <IconButton
                             className={clsx(classes.expand, {
@@ -92,7 +92,7 @@ export default function ImgMediaCard2(props) {
                 />
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent
-                        style={{backgroundColor:"whitesmoke"}}
+                        style={{ backgroundColor: "whitesmoke" }}
                     >
                         <Typography>
                             {props.card.description}
