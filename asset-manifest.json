@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/algorithmeasy/static/css/main.42944752.chunk.css",
-    "main.js": "/algorithmeasy/static/js/main.c27bd7ad.chunk.js",
-    "main.js.map": "/algorithmeasy/static/js/main.c27bd7ad.chunk.js.map",
+    "main.js": "/algorithmeasy/static/js/main.ae0e8d88.chunk.js",
+    "main.js.map": "/algorithmeasy/static/js/main.ae0e8d88.chunk.js.map",
     "runtime-main.js": "/algorithmeasy/static/js/runtime-main.43b97ce9.js",
     "runtime-main.js.map": "/algorithmeasy/static/js/runtime-main.43b97ce9.js.map",
     "static/css/2.d723a715.chunk.css": "/algorithmeasy/static/css/2.d723a715.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.d723a715.chunk.css",
     "static/js/2.dba6a00a.chunk.js",
     "static/css/main.42944752.chunk.css",
-    "static/js/main.c27bd7ad.chunk.js"
+    "static/js/main.ae0e8d88.chunk.js"
   ]
 }
