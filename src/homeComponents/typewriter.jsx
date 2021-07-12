@@ -1,25 +1,21 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Typewriter from "typewriter-effect";
 import './style.css'
-class TypeWriterC extends Component {
-    state = {
+const TypeWriterC = () => {
 
-    }
-    render() {
-        return (
-            <div className="type display-3">
-                <span className="badge badge-dark">
+    return (
+        <div className="type display-3">
+            <span className="badge badge-dark">
                 <Typewriter
                     options={{
-                        strings: ['Graph Algorithms', 'Sorting Algorithms',"8 Queen"],
+                        strings: ['Seive Algorithm', 'Searching Algorithms', 'Sorting Algorithms'],
                         autoStart: true,
                         loop: true,
                     }}
                 />
             </span>
-            </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default TypeWriterC;
