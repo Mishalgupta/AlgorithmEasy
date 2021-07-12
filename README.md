@@ -1,4 +1,4 @@
-# Algorithm Visualizer
+# Algorithm Easy
 
 A better visualization of different algorithms made with React. Limk to site: https://github.com/Mishalgupta/algorithmeasy
 
