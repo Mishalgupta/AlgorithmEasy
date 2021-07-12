@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/algorithmeasy/static/css/main.923355c8.chunk.css",
+    "main.js": "/algorithmeasy/static/js/main.6b4c3e5b.chunk.js",
+    "main.js.map": "/algorithmeasy/static/js/main.6b4c3e5b.chunk.js.map",
+    "runtime-main.js": "/algorithmeasy/static/js/runtime-main.43b97ce9.js",
+    "runtime-main.js.map": "/algorithmeasy/static/js/runtime-main.43b97ce9.js.map",
+    "static/css/2.d723a715.chunk.css": "/algorithmeasy/static/css/2.d723a715.chunk.css",
+    "static/js/2.dba6a00a.chunk.js": "/algorithmeasy/static/js/2.dba6a00a.chunk.js",
+    "static/js/2.dba6a00a.chunk.js.map": "/algorithmeasy/static/js/2.dba6a00a.chunk.js.map",
+    "index.html": "/algorithmeasy/index.html",
+    "static/css/2.d723a715.chunk.css.map": "/algorithmeasy/static/css/2.d723a715.chunk.css.map",
+    "static/css/main.923355c8.chunk.css.map": "/algorithmeasy/static/css/main.923355c8.chunk.css.map",
+    "static/js/2.dba6a00a.chunk.js.LICENSE.txt": "/algorithmeasy/static/js/2.dba6a00a.chunk.js.LICENSE.txt",
+    "static/media/banner.286d709d.jpg": "/algorithmeasy/static/media/banner.286d709d.jpg",
+    "static/media/binaryTree.6d8ce938.png": "/algorithmeasy/static/media/binaryTree.6d8ce938.png",
+    "static/media/graph.6e6849d5.png": "/algorithmeasy/static/media/graph.6e6849d5.png",
+    "static/media/primes.72a2f33f.jpg": "/algorithmeasy/static/media/primes.72a2f33f.jpg",
+    "static/media/index.css": "/algorithmeasy/static/media/roboto-vietnamese-400-normal.52cebac0.woff2",
+    "static/media/sort.117e08fc.png": "/algorithmeasy/static/media/sort.117e08fc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43b97ce9.js",
+    "static/css/2.d723a715.chunk.css",
+    "static/js/2.dba6a00a.chunk.js",
+    "static/css/main.923355c8.chunk.css",
+    "static/js/main.6b4c3e5b.chunk.js"
+  ]
+}
