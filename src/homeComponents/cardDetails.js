@@ -8,21 +8,21 @@ export function getDetails() {
         {
             id: 1,
             title: "Sorting Algorithm",
-            description: "Compare different sorting algorithms",
+            description: "A Sorting Algorithm is used to rearrange a given array or list elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of element in the respective data structure.",
             route: "/sort",
             img: sort
         },
         {
             id: 2,
             title: "Binary Search",
-            description: "Binary search is an efficient algorithm for finding an item from a sorted list of item",
+            description: " Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.",
             route: "/binarysearch",
             img: binSearch
         },
         {
             id: 3,
             title: "Recursive Sorting",
-            description: "Compare different recursive sorting algorithms",
+            description: "Recursive techniques can be utilized in sorting algorithms, allowing for the sorting of n elements in O(nlogn) time (compared with the O(n2) efficiency of bubble sort. Two such algorithms which will be examined here are Mergesort and Quicksort.",
             route: "/recursivesort",
             img: sort1
         },
