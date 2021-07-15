@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-copyright text-center py-3">Made with ❤️ by
-                <a href="https://github.com/mishalgupta" style={{ color: "#65b6f0" }}> Mishal Gupta</a>
+                <a href="https://www.linkedin.com/in/mishal-gupta-42550a194" target="_blank" style={{ color: "#65b6f0" }}> Mishal Gupta</a>
             </div>
 
         </footer>

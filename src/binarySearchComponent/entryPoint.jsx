@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 
 
 class EntryPoint extends Component {
-    state={
-        error:false
+    state = {
+        error: false
     }
     render() {
         return (
@@ -30,16 +30,16 @@ class EntryPoint extends Component {
             </div>
         );
     }
-    getData = (e)=>{
-        if( e.target.value!== "" ){
+    getData = (e) => {
+        if (e.target.value !== "") {
             console.log(e.target.value);
             this.props.setUpper(e.target.value);
         }
-        else{
+        else {
             this.props.setUpper(100)
         }
     }
-    validateNumbers = () =>{
+    validateNumbers = () => {
 
     }
 }
